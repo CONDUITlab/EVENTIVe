@@ -26,7 +26,7 @@ from scipy.cluster.hierarchy import linkage
     Data should be a nxm pandas dataframe with n patients/events (rows) with m parameters (columns), clustering uses all columns for all patients/events.
     ***Dataframe index used for "id" of patients/events, make sure that df.index is set to the unique ids if applicable '''
 ##MAIN FUNCTION##
-def hierarchical_heatmap_dendrogram_vis(data,n_clusters,title="Heatmap",plot_width=500,plot_height=1300): 
+def hierarchical(data,n_clusters,title="Heatmap",plot_width=500,plot_height=1300): 
     #copy the original data frame
     datakmeans = data.copy()
     #to handle NaN values, we replace with mean, for kmeans
