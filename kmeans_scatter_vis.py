@@ -54,4 +54,4 @@ def kmeansClustering(df,n_clusters,title,plot_width=800, plot_height=600):
     p = figure(plot_width=plot_width, plot_height=plot_height,x_axis_label=xlbl, y_axis_label=ylbl,title=title, **plot_tools)
     p.square('PC1','PC2',source=source,fill_color=color,line_color=color,size=9)
     p.toolbar.logo = None
-    return p,source, df2d[["index","color"]]  #return graph, and color coded clusters
+    return p,df2d[["index","color"]]  #return graph, and color coded clusters
