@@ -6,7 +6,7 @@ Creator: Victoria Tolls
 
 Last Updated: March 2018
 
-A Sample of some of the visualizations I created for EVENTIVe. Dependent on scipy, pandas, numpy and bokeh. 
+A Sample of some of the visualizations I created for EVENTIVe. Dependent on scipy, sklearn, pandas, numpy and bokeh. 
 
 Contents:
 
